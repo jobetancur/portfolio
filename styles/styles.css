@@ -281,10 +281,25 @@ img {
 }
 .skills0 {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    width: 100%;
     margin-top: 20px;
-    margin-bottom: 40px;
-    height: auto;
+}
+.skills0::-webkit-scrollbar {
+    background:#8b7bef11;
+    height: 7px;
+}
+.skills0::-webkit-scrollbar-thumb {
+    background: #5c3bef38;
+    border-radius: 30px;
+}
+.skills0 .bg-skill {
+    margin-left: 20px;
+    margin-right: 20px;
+    max-height: 300px;
+    min-width: 300px;
+    padding: auto;
 }
 .skilltittle {
     display: flex;
@@ -305,6 +320,18 @@ img {
 .fa-javascript i{
     font-size: 40px;
     color: rgb(255, 174, 0);
+}
+.fareact i{
+    font-size: 40px;
+    color: rgb(38, 174, 253);
+}
+.fagit i{
+    font-size: 40px;
+    color: rgb(255, 95, 56);
+}
+.fagithub i{
+    font-size: 40px;
+    color: rgb(36, 36, 36);
 }
 .bg-skill {
     display: block;
@@ -516,17 +543,26 @@ img {
     .aboutmy p {
         margin: 0px 20px;
     }
+    .skills {
+        margin: 50px 0px;
+        padding-top: 200px;
+    }
     .skills0 {
         display: flex;
-        justify-content: center;
+        justify-content: flex-start;
+        overflow-x: scroll;
         width: 100%;
         margin-top: 20px;
     }
+    .skills0::-webkit-scrollbar {
+        width: 0;
+        scroll-behavior: smooth;
+    }
     .skills0 .bg-skill {
-        margin-left: 10px;
-        margin-right: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
         max-height: 300px;
-        min-width: 30%;
+        min-width: 300px;
         padding: auto;
     }
     .experience {
