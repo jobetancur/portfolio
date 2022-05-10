@@ -222,7 +222,7 @@ img {
 .contactme2 a {
     display: flex;
     background-color: #5d3bef;
-    width: 430px;
+    width: 90%;
     height: 50px;
     justify-content: center;
     align-items: center;
@@ -625,6 +625,7 @@ img {
         justify-content: center;
         margin-top: 50px;
         margin-bottom: 30px;
+        
     }
     .socialcircle1 {
         margin-top: -30px;
