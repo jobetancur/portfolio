@@ -515,7 +515,7 @@ img {
         left: 0;
     }
     .intro {
-        padding: 0px;
+        padding-top:5px;
     }
     .tittle {
         margin-left: 100px;
@@ -635,7 +635,7 @@ img {
         left: 0;
     }
     .intro {
-        padding: 0px;
+        padding-top: 5px;
     }
     .tittle {
         margin-left: 20px;
