@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="../styles/styles.css">
     <link rel="stylesheet" href="../styles/layout.css">
     <!-- Font Awesome -->
@@ -122,12 +123,14 @@
             </a>    
         </div>
     <!-- ============ About My =========== -->
-    <div id="aboutmy" class="aboutmy col-12">
+    <div id="aboutmy" class="aboutmy col-12" data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">
         <h2>Acerca de mí</h2>
         <p>Desarrollador Full Stack en formación con conocimientos en HTML, CSS y JavaScript. Soy una persona que le gusta reinventarse constantemente en busca de alcanzar un mejor desempeño. Mi perfil está orientado al logro, la proactividad, la resolución de problemas y un espíritu de aprendizaje constante. He encontrado una gran pasión por el desarrollo web y la implementación de aplicaciones que busquen suplir las necesidades sociales. Busco oportunidades que me permitan aprender cada día a través de retos, trabajar en equipo e implementar mis conocimientos para el bien común.</p>
     </div>
     <!-- ======== My Skills ======== -->
-    <div id="skills" class="skills col-12">
+    <div id="skills" class="skills col-12" data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">
         <div>
             <h2>Mis habilidades</h2>
         </div>
@@ -178,10 +181,12 @@
     </div>
     <!-- ======= My experience ======= -->
     <div>
-        <div id="experience" class="experiencetittle col-12">
+        <div id="experience" class="experiencetittle col-12" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
             <h2>Experiencia</h2>
         </div>
-        <div class="experience col-12">
+        <div class="experience col-12" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
             <div class="iconsexperience">  
                     <i class="fa-brands fa-amazon fa-5x"></i>
                 <div class="textexperience">
@@ -209,7 +214,8 @@
         </div>
     </div>
     <!-- ========== Portfolio ========== -->
-    <div id="portfolio" class="portfoliotittle">
+    <div id="portfolio" class="portfoliotittle" data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">
             <h2>Portafolio</h2>
         <div class="portfolioimage">
             <div class="portfoliohover">
@@ -229,7 +235,8 @@
         </div>
     </div>
     <!-- ========= Contact My Bottoms =========== -->
-    <div id="contact" class="contact">
+    <div id="contact" class="contact" data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">
         <h2>Contacto</h2>
         <div class="bg-contact">
             <div>
@@ -259,5 +266,12 @@
     <footer class="developer">
         <p>Web Developer: &nbsp; <i class="fa-solid fa-terminal"></i> Alejandro Betancur</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+            once: false,
+        });
+      </script>
 </body>
 </html>
