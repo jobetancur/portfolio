@@ -636,6 +636,7 @@ img {
     }
     .intro {
         padding-top: 20px;
+        height: 80px;
     }
     .tittle {
         margin-left: 20px;
