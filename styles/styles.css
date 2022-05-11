@@ -278,7 +278,8 @@ img {
 }
 .skills p {
     color: #423f40;
-    margin: 0px 20px;
+    margin: 0px 10px;
+    font-size: 14.5px;
 }
 .skills0 {
     display: flex;
@@ -338,10 +339,11 @@ img {
     display: block;
     align-items: center;
     background-color: #8b7bef18;
-    height: 300px;
+    height: 100vw;
     width: 25%;
     margin-top: 20px;
     margin-right: 50px;
+    margin-bottom: 20px;
     box-shadow: 1px 1px 1px #6160601f;
     border-radius: 2px;
     transition: all 0.25s;
