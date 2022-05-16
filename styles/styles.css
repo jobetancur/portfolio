@@ -613,6 +613,9 @@ img {
 /* ========== Media Query Smartphone ==========*/ 
 
 @media (max-width: 767px){
+    .overflow {
+        overflow: hidden;
+    }
     .checkbtn {
         display: block;
         padding-right: 0px;
