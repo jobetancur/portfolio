@@ -220,17 +220,17 @@ img {
     padding-top: 23%;
     font-size: 25px;
 }
-.contactme2 a {
+.contactme1 a {
     display: flex;
     background-color: #5d3bef;
-    width: 90%;
+    width: 55%;
     height: 50px;
     justify-content: center;
     align-items: center;
     color: #ffffff;
     margin-top: 20px;
 }
-.contactme2 p {
+.contactme1 p {
     padding-left: 20px;
 }
 .contactme2 {
@@ -669,7 +669,19 @@ img {
         justify-content: center;
         margin-top: 50px;
         margin-bottom: 30px;
-        
+    }
+    .contactme2 a {
+        display: flex;
+        background-color: #5d3bef;
+        width: 80%;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        color: #ffffff;
+        margin-top: 20px;
+    }
+    .contactme2 p {
+        padding-left: 20px;
     }
     .socialcircle1 {
         margin-top: -30px;
