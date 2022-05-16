@@ -13,6 +13,9 @@ a {
 img {
     max-width: 100%;
 }
+.overflow {
+    overflow: hidden;
+}
 
 /* ================== Menu ================*/
 
@@ -613,9 +616,6 @@ img {
 /* ========== Media Query Smartphone ==========*/ 
 
 @media (max-width: 767px){
-    .overflow {
-        overflow: hidden;
-    }
     .checkbtn {
         display: block;
         padding-right: 0px;
