@@ -403,28 +403,94 @@ img {
     padding-top: 100px;
     margin-bottom: 50px;
 }
-.sub-image {
-    display: flex;
-    justify-content: center;
-}
+
 .portfoliotittle h2 {
     margin-bottom: 40px;
     font-size: 30px;
     color: #222222;
 }
-.portfolioimage {
+
+.portfoliocontainer {
     display: flex;
     justify-content: center;
-    margin: 20px 100px;
+    flex-wrap: wrap;
 }
-.portfolioimage img {
-    margin-right: 10px;
-    padding-left: 10px;
+
+.portfolioelement {
+    max-width: 400px;
+    margin: 0px 20px;
+    background-color: #2222222c;
+    margin: 20px 20px;
+    padding-bottom: 20px;
+    
 }
-.portfolioimage .portfoliohover:hover {
-    transform: translateY(-15px);
+
+.portfolioelement img {
+    border-radius: 2px 2px 0px 0px;
+    width: 400px;
+    min-height: 230px;
+}
+
+.portfolioelement h3 {
+    margin: 20px;
+}
+
+.portfolioelement p {
+    line-height: 1.5;
+}
+
+.infoproject hr {
+    border: none;
+    height: 2px;
+    background-color: #5d3bef;
+}
+
+.paragraph {
+    margin: 20px;
+    text-align: start;
+}
+
+.portfoliobuttons {
+    width: 100%;
+    display: flex;
+    justify-content: center ;
+}
+
+.buttonstyle {
+    background-color: #8b7bef;
+    margin: 10px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px #6160601f;
+    border-radius: 2px;
+    transition: all 0.25s;
+}
+
+.buttonstyle:hover {
+    transform: translateY(-4px);
     box-shadow: rgba(0, 0, 0, 0.2);
     transition: all 0.5s;
+} 
+
+.buttonstyle a {
+    display: flex;
+}
+
+.buttonstyle p{
+    font-size: 14px;
+    padding-left: 10px;
+    color: #ffffff;
+}
+
+.buttonstyle i {
+    color: #ffffff;
+}
+
+.infoproject h3 i {
+    color: rgb(38, 174, 253);
 }
 
 /* ========= Contact My Bottoms =========== */
